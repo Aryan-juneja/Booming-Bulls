@@ -1,5 +1,5 @@
-import { PlanType } from '../types';
 
+export type PlanType = { id: string; name: string; description: string; price: string; spreadValue: string; highlight: boolean; features: { initial: string; spread: string; fees: string; leverage: string; lot: string; execution: string; open: string; threshold: string; margin: string; swap: string; risk: string; assets: string; }; };
 export const pricingData: PlanType[] = [
   {
     id: 'vintage',

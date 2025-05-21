@@ -1,6 +1,13 @@
 import React from 'react';
-import { PlanType } from '../types';
 
+export interface PlanType {
+  id: string;
+  name: string;
+  description: string;
+  features: {
+    [key: string]: string | number | boolean;
+  };
+}
 interface ComparisonTableProps {
   plans: PlanType[];
 }
