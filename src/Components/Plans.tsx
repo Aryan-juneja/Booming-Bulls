@@ -10,7 +10,7 @@ const Plans = () => {
       <main className="container mx-auto px-4 py-8">
         <PricingSection />
         <FundingSection />
-      </main>
+      </main> 
     </div>
   )
 }

@@ -207,7 +207,7 @@ const PricingSection = () => {
       </div>
 
       {/* Desktop View - Original Layout */}
-      <div className="hidden md:block max-w-7xl mx-auto">
+      <div className="hidden md:block max-w-7xl ">
         <div className="grid grid-cols-4">
           {/* Feature Labels Column */}
           <div className="space-y-2">

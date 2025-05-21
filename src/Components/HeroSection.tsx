@@ -40,7 +40,7 @@ return (
         {/* Counter with continuously incrementing value */}
         <div className="mt-12 md:mb-8">
             <Counter
-            className="text-5xl md:text-7xl lg:text-[12rem] font-medium text-gray-300"
+            className="text-5xl md:text-9xl lg:text-[12rem] font-medium text-gray-300"
             startValue={999156}
             interval={1500}
             />

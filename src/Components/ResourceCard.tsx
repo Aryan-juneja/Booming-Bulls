@@ -22,21 +22,21 @@ const ResourceCard: React.FC<ResourceCardProps> = ({ card, index }) => {
         ref={cardRef}
         className={`relative overflow-hidden rounded-lg transition-all duration-1000 transform 
         ${isIntersecting 
-            ? 'opacity-100 translate-x-0' 
+            ? 'opacity-100 translate-x-0   ' 
             : 'opacity-0 translate-x-20'
         }`}
         style={{ 
             transitionDelay: `${index * 100}ms`,
         }}
         >
-        <div className="bg-transparent border border-white/10 h-full flex flex-col rounded-lg overflow-hidden hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
-            <div className="relative h-48 overflow-hidden">
+        <div className="bg-transparent border border-white/10 h-full  flex flex-col rounded-lg overflow-hidden hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
+            <div className="relative h-60 w-auto overflow-hidden">
             <Image
                 src={card.image}
                 alt={card.title}
                 layout="fill"
                 objectFit="cover"
-                className="rounded-2xl shadow-xl transition-transform duration-700 hover:scale-110"
+                className="rounded-2xl shadow-xl transition-transform duration-700 hover:scale-110 "
                 priority={index === 0}
             />
             </div>

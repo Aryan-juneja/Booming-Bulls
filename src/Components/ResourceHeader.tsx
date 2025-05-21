@@ -35,10 +35,10 @@ const ResourcesHeader: React.FC<ResourcesHeaderProps> = ({
                 Resources
             </button>
             </div>
-            <h2 className="text-4xl md:text-5xl font-medium text-white mb-2">
+            <h2 className="text-4xl md:text-6xl font-medium text-white mb-2">
             Learn while <span className="text-[#fe58da]">Trading</span>
             </h2>
-            <p className="text-gray-400 mb-8">
+            <p className="text-gray-400 mb-8 text-2xl">
             Learn & Trade - Master Markets Like a Pro
             </p>
         </div>
